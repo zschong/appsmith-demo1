@@ -1,0 +1,84 @@
+{
+  "unpublishedPage": {
+    "name": "Page1",
+    "slug": "page1",
+    "layouts": [
+      {
+        "viewMode": false,
+        "dsl": {
+          "widgetName": "MainContainer",
+          "backgroundColor": "none",
+          "rightColumn": 1160,
+          "snapColumns": 64,
+          "detachFromLayout": true,
+          "widgetId": "0",
+          "topRow": 0,
+          "bottomRow": 790,
+          "containerStyle": "none",
+          "snapRows": 125,
+          "parentRowSpace": 1,
+          "type": "CANVAS_WIDGET",
+          "canExtend": true,
+          "version": 60,
+          "minHeight": 740,
+          "parentColumnSpace": 1,
+          "dynamicBindingPathList": [],
+          "leftColumn": 0,
+          "children": [
+            {
+              "schema": "{\"form\":{\"labelCol\":6,\"wrapperCol\":12},\"schema\":{\"type\":\"object\",\"properties\":{\"47lo13xk30e\":{\"type\":\"string\",\"title\":\"Input\",\"x-decorator\":\"FormItem\",\"x-component\":\"Input\",\"x-validator\":[],\"x-component-props\":{},\"x-decorator-props\":{},\"x-designable-id\":\"47lo13xk30e\",\"x-index\":0},\"8s5wu72fvzs\":{\"type\":\"string\",\"title\":\"Input\",\"x-decorator\":\"FormItem\",\"x-component\":\"Input\",\"x-validator\":[],\"x-component-props\":{},\"x-decorator-props\":{},\"x-designable-id\":\"8s5wu72fvzs\",\"x-index\":1},\"et4dv9u6emh\":{\"type\":\"string\",\"title\":\"Input\",\"x-decorator\":\"FormItem\",\"x-component\":\"Input\",\"x-validator\":[],\"x-component-props\":{},\"x-decorator-props\":{},\"x-designable-id\":\"et4dv9u6emh\",\"x-index\":2},\"fqqemt7w691\":{\"type\":\"string\",\"title\":\"Input\",\"x-decorator\":\"FormItem\",\"x-component\":\"Input\",\"x-validator\":[],\"x-component-props\":{},\"x-decorator-props\":{},\"x-designable-id\":\"fqqemt7w691\",\"x-index\":3},\"53tmmwiihrt\":{\"type\":\"Array<string | number>\",\"title\":\"Checkbox Group\",\"x-decorator\":\"FormItem\",\"x-component\":\"Checkbox.Group\",\"enum\":[{\"label\":\"选项1\",\"value\":1},{\"label\":\"选项2\",\"value\":2}],\"x-validator\":[],\"x-decorator-props\":{},\"x-designable-id\":\"53tmmwiihrt\",\"x-index\":4},\"p65sifhkwks\":{\"type\":\"Array<string | number>\",\"title\":\"Checkbox Group\",\"x-decorator\":\"FormItem\",\"x-component\":\"Checkbox.Group\",\"enum\":[{\"label\":\"选项1\",\"value\":1},{\"label\":\"选项2\",\"value\":2}],\"x-validator\":[],\"x-decorator-props\":{},\"x-designable-id\":\"p65sifhkwks\",\"x-index\":5},\"8iekmav3adq\":{\"title\":\"Select\",\"x-decorator\":\"FormItem\",\"x-component\":\"Select\",\"x-validator\":[],\"x-component-props\":{},\"x-decorator-props\":{},\"enum\":[{\"children\":[],\"label\":\"选项 1\",\"value\":\"muczsaexgm6\"},{\"children\":[],\"label\":\"选项 2\",\"value\":\"in06gr6m565\"},{\"children\":[],\"label\":\"选项 3\",\"value\":\"u98mvj1yndy\"},{\"children\":[],\"label\":\"选项 4\",\"value\":\"dncb9lgtrc6\"},{\"children\":[],\"label\":\"选项 5\",\"value\":\"x1six0bilr7\"},{\"children\":[],\"label\":\"选项 6\",\"value\":\"d3f235p9mku\"}],\"x-designable-id\":\"8iekmav3adq\",\"x-index\":6}},\"x-designable-id\":\"1bscx38tvqp\"}}",
+              "boxShadow": "none",
+              "widgetName": "formily1",
+              "isCanvas": false,
+              "displayName": "Formily表单",
+              "iconSVG": "/static/media/icon.ea3e08d130e59c56867ae40114c10eed.svg",
+              "topRow": 17,
+              "bottomRow": 65,
+              "parentRowSpace": 10,
+              "title": "表单标题",
+              "type": "FORMILY_WIDGET",
+              "triggerLabel": "打开表单",
+              "hideCard": false,
+              "parentColumnSpace": 19.8125,
+              "dynamicTriggerPathList": [],
+              "leftColumn": 16,
+              "dynamicBindingPathList": [
+                {
+                  "key": "borderRadius"
+                },
+                {
+                  "key": "accentColor"
+                }
+              ],
+              "resetLabel": "重置",
+              "showReset": true,
+              "key": "aeogp9lfxk",
+              "submitLabel": "提交",
+              "formType": "PLAIN",
+              "isDeprecated": false,
+              "rightColumn": 48,
+              "widgetId": "q388bgl7h1",
+              "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+              "isVisible": true,
+              "version": 1,
+              "parentId": "0",
+              "renderMode": "CANVAS",
+              "isLoading": false,
+              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}"
+            }
+          ]
+        },
+        "layoutOnLoadActions": [],
+        "validOnPageLoadActions": true,
+        "id": "Page1",
+        "deleted": false,
+        "policies": [],
+        "userPermissions": []
+      }
+    ],
+    "userPermissions": [],
+    "policies": []
+  },
+  "deleted": false,
+  "gitSyncId": "62b41f08b72ed502c3e66727_62b41f08b72ed502c3e66729"
+}
